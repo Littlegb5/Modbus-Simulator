@@ -2,6 +2,7 @@ from pyModbusTCP.server import ModbusServer
 from PLC_Simulator import get_plc_values
 from time import sleep
 
+#testing
 server = ModbusServer("127.0.0.1", 12345, no_block=True)
 
 try:
