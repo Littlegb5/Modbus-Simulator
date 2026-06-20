@@ -15,8 +15,8 @@ def get_local_ip():
     return IP
 
 
-
 A = input("Are you using localhost? (y/n): ")
+
 
 if A == "y":
     IP = "127.0.0.1"
